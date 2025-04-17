@@ -13,10 +13,11 @@ import EthAccraVideo from "@/components/2025/eth-accra-video";
 import HackathonImages from "@/components/2025/hackathon-images-and-sponsors/hackathon-images";
 
 const EthAccra2025 = () => {
+
   const description = "ETHAccra 2025 will be held in Accra. This year's event comes off on the 3rd through to 6th September, 2025, at ISSER Seminar Hall, University of Ghana, Legon.";
   const title = "ETHAccra Hackathon 2025";
   const url = "http://ethaccra.xyz";
-  const imageUrl = "https://ethaccra.xyz/assets/pngs/meta_image.png";
+  const imageUrl = "https://ethaccra.xyz/assets/jpgs/meta_image.jpg";
   const siteName = "ETHAccra";
 
   return (
