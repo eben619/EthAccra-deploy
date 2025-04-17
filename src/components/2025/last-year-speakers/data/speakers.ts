@@ -24,7 +24,7 @@ export const speakers: Speaker[] = [
   {
     imageUrl: "/assets/pngs/hackathon/2023_speakers/simon-schmid.png",
     name: "Simon Emanuel Schmid",
-    affiliation: "Edge & Node",
+    affiliation: "The Graph",
     affiliationTwitterUrl: "https://x.com/GraphProtocol",
     socials: {
       linkedin: "",
