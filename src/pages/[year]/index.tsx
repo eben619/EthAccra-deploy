@@ -1,9 +1,10 @@
 "use client"
 
 import EthAccra2023 from "@/components/2023/main";
+import EthAccra2025 from "@/components/2025/main";
 import { useParams, useRouter } from "next/navigation";
 
-type ValidYears = "2023" | "2024";
+type ValidYears = "2023" | "2025";
 
 const EthAccraTemplate = () => {
   const params = useParams();
@@ -11,6 +12,7 @@ const EthAccraTemplate = () => {
 
   const pageViews = {
     "2023": <EthAccra2023 />,
+    "2025": <EthAccra2025 />,
   };
 
   const returnView = () => {

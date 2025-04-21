@@ -19,7 +19,7 @@ const Hero = () => {
     <div id="hero-section" className="relative w-full h-screen overflow-hidden">
       <Image
         alt="background"
-        src="/assets/pngs/2025/Background.png"
+        src="/assets/svgs/2025/Background.svg"
         fill
         priority
         className="object-cover z-1"
