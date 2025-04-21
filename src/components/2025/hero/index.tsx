@@ -42,7 +42,7 @@ const Hero = () => {
               </p><br/>
 
               <p className={clsx(styles.dateText, "mt-4")}>
-                3RD – 6TH SEPTEMBER, 2025
+                3RD - 6TH SEPTEMBER, 2025
               </p>
 
               <div className={styles.buttonContainer}>

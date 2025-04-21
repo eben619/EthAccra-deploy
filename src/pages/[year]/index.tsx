@@ -4,15 +4,15 @@ import EthAccra2023 from "@/components/2023/main";
 import EthAccra2025 from "@/components/2025/main";
 import { useParams, useRouter } from "next/navigation";
 
-type ValidYears = "2023" | "2025";
+type ValidYears = "2025" | "2023";
 
 const EthAccraTemplate = () => {
   const params = useParams();
   const router = useRouter();
 
   const pageViews = {
-    "2023": <EthAccra2023 />,
     "2025": <EthAccra2025 />,
+    "2023": <EthAccra2023 />,
   };
 
   const returnView = () => {
