@@ -125,7 +125,7 @@ const Illustration = () => {
       {/* Background Image */}
       <Image
         alt="ETHAccra Illustration"
-        src="/assets/pngs/2025/ETHAccra-Illustration1.png"
+        src="/assets/svgs/ETHAccra-illustration1.svg"
         fill
         priority
         style={{ objectFit: "cover" }}
