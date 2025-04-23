@@ -1,26 +1,47 @@
 .heroContainer {
-  @apply px-4 py-12 flex items-center justify-start min-h-[95vh] w-full;
+  @apply px-4 py-6 flex items-center justify-between min-h-[95vh] w-full;
 }
 
 .heroLeftContainer {
   @apply flex flex-col justify-start items-start pl-4 md:pl-8 lg:pl-16 xl:pl-24;
+  width: 60%;
+}
+
+.heroRightContainer {
+  @apply flex flex-col justify-start items-start pr-4 md:pr-8 lg:pr-16 xl:pr-24;
+  width: 40%;
 }
 
 .heroContentContainer {
   @apply flex flex-col items-start text-left max-w-4xl;
-  padding-top: 116px;
+  padding-top: 90px;
+}
+
+.mapContentContainer {
+  @apply flex flex-col items-start text-left w-full;
+  padding-top: 120px;
 }
 
 .dateText {
-  @apply text-[#2A2A2A] xl:text-[40px] font-medium lg:leading-[140%] text-[26px] leading-[140%];
+  @apply text-[#2A2A2A] xl:text-[28px] font-medium lg:leading-[140%] text-[20px] leading-[140%];
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.venueText {
+  @apply text-[#2A2A2A] xl:text-[21px] font-medium lg:leading-[140%] text-[24px] leading-[140%];
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .descriptionText {
-  @apply text-[#2A2A2A] text-[36px] sm:text-[48px] lg:text-[64px] font-bold lg:leading-[120%] leading-[130%];
+  @apply text-[#2A2A2A] text-[28px] sm:text-[40px] lg:text-[57px] font-bold lg:leading-[120%] leading-[130%];
+  margin-bottom: 0.5rem;
 }
 
 .buttonContainer {
-  @apply flex justify-start mt-8;
+  @apply flex justify-start;
+  margin-top: 1.5rem;
 }
 
 .heroButton {
@@ -30,26 +51,137 @@
   border: 1px solid transparent;
 }
 
+/* Countdown Wrapper - includes countdown and MORE text */
+.countdownWrapper {
+  @apply flex items-center gap-4;
+  margin: 1rem 0;
+}
+
+/* Countdown Timer Styles */
+.countdownContainer {
+  @apply flex justify-start gap-3;
+  margin-right: 1rem;
+}
+
+.countdownItem {
+  @apply flex flex-col items-center rounded-lg;
+  background-color: rgba(252, 116, 194, 0.15);
+  padding: 0.75rem;
+  min-width: 90px;
+  border: 1px solid rgba(252, 116, 194, 0.3);
+}
+
+.countdownValue {
+  @apply font-bold text-[#2A2A2A];
+  font-size: 1.75rem;
+}
+
+.countdownLabel {
+  @apply text-sm text-[#2A2A2A] mt-1;
+}
+
+/* MORE text styling */
+.moreText {
+  @apply font-bold text-[#000000] text-3xl;
+  letter-spacing: 1px;
+}
+
+/* Map Container Styles */
+.mapContainer {
+  @apply w-full rounded-lg overflow-hidden;
+  height: 300px;
+  width: 250px;
+  border: 1px solid rgba(42, 42, 42, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
 /* ✅ Mobile styles */
 @media (max-width: 768px) {
+  .heroContainer {
+    @apply flex-col;
+  }
+  
+  .heroLeftContainer,
+  .heroRightContainer {
+    @apply pl-0 pr-0 w-full;
+  }
+  
   .heroContentContainer {
     @apply items-center text-center px-4;
-    padding-top: 80px;
+    padding-top: 70px;
+  }
+  
+  .mapContentContainer {
+    @apply items-center text-center px-4;
+    padding-top: 20px;
   }
 
   .descriptionText {
-    @apply text-[32px] font-extrabold leading-tight;
+    @apply text-[30px] font-extrabold leading-tight;
   }
 
   .dateText {
-    @apply text-[22px] font-bold mt-2;
+    @apply text-[18px] font-bold;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
   }
 
   .buttonContainer {
-    @apply justify-center mt-6;
+    @apply justify-center;
+    margin-top: 0.5rem;
   }
 
-  .heroLeftContainer {
-    @apply pl-0 w-full;
+  .venueText {
+    @apply text-[16px] font-bold;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .countdownWrapper {
+    @apply flex-col;
+    gap: 0.5rem;
+  }
+  
+  .countdownContainer {
+    @apply w-full justify-center;
+    margin-right: 0;
+  }
+  
+  .moreText {
+    @apply text-base;
+  }
+  
+  .countdownItem {
+    min-width: 80px;
+    padding: 0.5rem;
+  }
+  
+  .countdownValue {
+    font-size: 1.5rem;
+  }
+  
+  .countdownLabel {
+    font-size: 0.8rem;
+  }
+  
+  .mapContainer {
+    height: 200px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Additional responsiveness for very small screens */
+@media (max-height: 700px) {
+  .heroContentContainer {
+    padding-top: 50px;
+  }
+  
+  .mapContentContainer {
+    padding-top: 60px;
+  }
+  
+  .mapContainer {
+    height: 200px;
+    margin-bottom: 10px;
   }
 }

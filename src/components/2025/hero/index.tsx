@@ -7,6 +7,31 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0
+  });
+
+  // Calculate time remaining to September 3, 2025
+  useEffect(() => {
+    const calculateTimeLeft = () => {
+      const targetDate = new Date('September 3, 2025 00:00:00').getTime();
+      const now = new Date().getTime();
+      const difference = targetDate - now;
+      
+      if (difference > 0) {
+        setTimeLeft({
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+        });
+      }
+    };
+    
+    calculateTimeLeft();
+    const timer = setInterval(calculateTimeLeft, 1000 * 60); // Update every minute
+    
+    return () => clearInterval(timer);
+  }, []);
 
   useEffect(() => {
     const timer = setTimeout(() => setIsLoading(false), 1000);
@@ -27,6 +52,7 @@ const Hero = () => {
 
       <div className="relative z-2 w-full h-full flex items-center">
         <div className={clsx(styles.heroContainer)}>
+          {/* Left Content */}
           <div className={styles.heroLeftContainer}>
             <motion.div
               className={styles.heroContentContainer}
@@ -35,21 +61,39 @@ const Hero = () => {
               transition={{ duration: 0.3, ease: "easeInOut" }}
               viewport={{ once: true }}
             >
-              <p className={clsx(styles.descriptionText)}>
+              <p className={clsx(styles.descriptionText, 'mt-10')}>
                 Come for the hack.
                 <br />
                 Stay for the vibes.
-              </p><br/>
+              </p>
 
-              <p className={clsx(styles.dateText, "mt-4")}>
+              <p className={clsx(styles.dateText)}>
                 3RD - 6TH SEPTEMBER, 2025
               </p>
+
+              <p className={clsx(styles.venueText)}>
+                ISSER Conference Hall, University of Ghana.
+              </p>
+            
+              {/* Countdown Timer with MORE text */}
+              <div className={styles.countdownWrapper}>
+                <div className={styles.countdownContainer}>
+                  <div className={styles.countdownItem}>
+                    <span className={styles.countdownValue}>{timeLeft.days}</span>
+                    <span className={styles.countdownLabel}>Days</span>
+                  </div>
+                  <div className={styles.countdownItem}>
+                    <span className={styles.countdownValue}>{timeLeft.hours}</span>
+                    <span className={styles.countdownLabel}>Hours</span>
+                  </div>
+                </div>
+              </div>
 
               <div className={styles.buttonContainer}>
                 <a
                   href="https://dorahacks.io/hackathon/ethaccrahackathon2025/detail"
                   target="_blank"
-                  className={clsx(styles.heroButton, "mt-6")}
+                  className={clsx(styles.heroButton)}
                 >
                   APPLY NOW
                 </a>
