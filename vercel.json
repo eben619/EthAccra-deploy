@@ -10,5 +10,18 @@
       ],
       "destination": "/2023"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.ethaccra.xyz"
+        }
+      ],
+      "destination": "https://ethaccra.xyz/$1",
+      "permanent": true
+    }
   ]
 }
