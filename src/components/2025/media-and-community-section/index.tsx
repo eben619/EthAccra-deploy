@@ -114,57 +114,6 @@ const mediaAndCommunityPartnersData = [
     name: "",
     url: "https://www.eda.admin.ch/accra",
   },
-
-  // {
-  //   imageUrl: "/assets/pngs/web3bridge.png",
-  //   name: "",
-  //   url: "https://twitter.com/Web3Bridge",
-  // },
-  // {
-  //   imageUrl: "/assets/pngs/streamETH.png",
-  //   name: "",
-  //   url: "https://twitter.com/streameth",
-  // },
-  // {
-  //   imageUrl: "/assets/svgs/media-and-community/starknetAfrica.svg",
-  //   name: "",
-  //   url: "https://twitter.com/StarkNetAfrica",
-  // },
-  // {
-  //   imageUrl: "/assets/pngs/devcongress.png",
-  //   name: "",
-  //   url: "https://twitter.com/DevCongress",
-  // },
-  // {
-  //   imageUrl: "/assets/svgs/media-and-community/new/arweave.svg",
-  //   name: "",
-  //   url: "https://twitter.com/ArweaveAfrica",
-  // },
-  // {
-  //   imageUrl: "/assets/pngs/Defi.png",
-  //   name: "",
-  //   url: "https://twitter.com/defiafrica",
-  // },
-  // {
-  //   imageUrl: "/assets/svgs/media-and-community/new/afroblocks.svg",
-  //   name: "",
-  //   url: "https://twitter.com/Afroblocks",
-  // },
-  // {
-  //   imageUrl: "/assets/pngs/ayagigs.png",
-  //   name: "",
-  //   url: "https://twitter.com/ayahq_",
-  // },
-  // {
-  //   imageUrl: "/assets/pngs/unlock-logo.png",
-  //   name: "",
-  //   url: "https://twitter.com/UnlockProtocol",
-  // },
-  // {
-  //   imageUrl: "/assets/pngs/bankless.png",
-  //   name: "",
-  //   url: "https://twitter.com/Sovereignfront",
-  // },
 ];
 
 const MediaAndCommunityPartnersSection = () => {
@@ -203,7 +152,7 @@ const MediaAndCommunityPartnersSection = () => {
                         sizes="100vw"
                         width={195.316}
                         height={65.614}
-                        className="w-auto h-full"
+                        className={`max-w-full max-h-full object-contain`}
                       />
                     </a>
                   </motion.div>

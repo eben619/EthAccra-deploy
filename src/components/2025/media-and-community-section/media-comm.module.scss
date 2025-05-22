@@ -19,6 +19,20 @@
 }
 
 .imageCover {
-    @apply rounded bg-[#FAFAFA] py-[22px] px-[52px] md:p-4 lg:py-[22px] lg:px-[52px] w-full h-full flex items-center justify-center;
+    @apply rounded bg-[#FAFAFA] py-[22px] px-[52px] md:p-4 lg:py-[22px] lg:px-[52px] w-full flex items-center justify-center;
+    
+    // Set a consistent height for all cards
+    height: 120px; // Adjust this value as needed
+    
+    // Ensure all cards in a row have the same height
+    min-height: 120px;
+    
+    img {
+        @apply max-w-full max-h-full object-contain;
+        
+        // Target POAP image specifically
+        &[src*="poap.svg"] {
+            height: 50% !important;
+        }
+    }
 }
-
