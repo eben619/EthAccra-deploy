@@ -15,6 +15,11 @@ const mediaAndCommunityPartnersData = [
     url: "https://x.com/poapxyz",
   },
   {
+    imageUrl: "/assets/svgs/media-and-community/new/ethrwanda.svg",
+    name: "",
+    url: "https://x.com/_ETHRwanda",
+  },
+  {
     imageUrl: "/assets/svgs/media-and-community/new/ethBelgrade.svg",
     name: "",
     url: "https://twitter.com/ethbelgrade",
@@ -103,11 +108,6 @@ const mediaAndCommunityPartnersData = [
     imageUrl: "/assets/svgs/media-and-community/new/ethBucharest.svg",
     name: "",
     url: "https://x.com/ethbucharest_",
-  },
-  {
-    imageUrl: "/assets/svgs/media-and-community/new/ethrwanda.svg",
-    name: "",
-    url: "https://x.com/_ETHRwanda",
   },
   {
     imageUrl: "/assets/svgs/media-and-community/new/swiss-conf.svg",
