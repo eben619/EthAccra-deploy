@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
+import { ChevronDown } from "lucide-react";
 
 const FooterSection = () => {
+  const [isPoapDropdownOpen, setIsPoapDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsPoapDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
   return (
     <div className="bg-white">
       <div className="max-w-6xl mx-auto px-4">
@@ -79,7 +96,41 @@ const FooterSection = () => {
           <div className="mb-4 md:mb-0">
             <p>All rights reserved 2025</p>
           </div>
-          <div className="flex flex-wrap space-x-8">
+          <div className="flex flex-wrap items-center space-x-8">
+            {/* POAP Dropdown */}
+            <div className="relative mb-2 md:mb-0" ref={dropdownRef}>
+              <button
+                onClick={() => setIsPoapDropdownOpen(!isPoapDropdownOpen)}
+                className="flex items-center space-x-1 hover:underline focus:outline-none"
+              >
+                <span>POAPs</span>
+                <ChevronDown 
+                  className={`w-4 h-4 transition-transform ${isPoapDropdownOpen ? 'rotate-180' : ''}`} 
+                />
+              </button>
+              
+              {isPoapDropdownOpen && (
+                <div className="absolute bottom-full mb-2 left-0 bg-white border border-gray-200 rounded-lg shadow-lg py-2 min-w-52 z-10">
+                  <a 
+                    href="https://collections.poap.xyz/collections/ethaccra/12447" 
+                    className="block px-4 py-2 hover:bg-gray-50 hover:text-[#FF5CB9]" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    POAP Collection
+                  </a>
+                  <a 
+                    href="https://collectors.poap.xyz/scan" 
+                    className="block px-4 py-2 hover:bg-gray-50 hover:text-[#FF5CB9] whitespace-nowrap" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Collected POAPs
+                  </a>
+                </div>
+              )}
+            </div>
+            
             <a href="#about-us" className="mb-2 md:mb-0 hover:underline">About Us</a>
             <a href="#contact-us" className="mb-2 md:mb-0 hover:underline">Contact Us</a>
             <a href="#faqs" className="mb-2 md:mb-0 hover:underline">FAQs</a>
