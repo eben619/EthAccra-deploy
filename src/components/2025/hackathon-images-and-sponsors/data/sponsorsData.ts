@@ -45,7 +45,7 @@ export const platinumSponsors = [
   {
     imageUrl: "",
     name: "",
-    url: "",
+    url: "#sponsors",
   },
   /*{
     imageUrl: "/assets/svgs/hackathon/sponsors/optimism.svg",
