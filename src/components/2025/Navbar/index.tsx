@@ -143,39 +143,30 @@ const Navbar = () => {
             >
               Sponsors
             </button>
-            
-            {/* Past Editions Dropdown */}
-            <div className="relative" ref={dropdownRef}>
-              <button 
-                className="flex items-center gap-1 text-lg font-medium hover:opacity-80 transition-opacity" 
-                style={{ color: "#f5950a" }}
-                onClick={() => setDropdownOpen(!dropdownOpen)}
-              >
-                Past Editions
-                <ChevronDown size={16} />
-              </button>
-              
-              {dropdownOpen && (
-                <div className="absolute top-full mt-2 bg-white rounded-md shadow-lg py-2 z-50 w-40">
-                  <a 
-                    href="https://2024.ethaccra.xyz" 
-                    target="_blank" 
-                    className="block px-4 py-2 hover:bg-gray-100 transition-colors"
-                    style={{ color: "#f5950a" }}
-                  >
-                    2024 Edition
-                  </a>
-                  <a 
-                    href="https://2024.ethaccra.xyz/2023" 
-                    target="_blank" 
-                    className="block px-4 py-2 hover:bg-gray-100 transition-colors"
-                    style={{ color: "#f5950a" }}
-                  >
-                    2023 Edition
-                  </a>
-                </div>
-              )}
-            </div>
+
+            <button 
+              onClick={() => scrollToSection('speakers')}
+              className="text-lg font-medium cursor-pointer hover:opacity-80 transition-opacity" 
+              style={{ color: "#f5950a" }}
+            >
+              Speakers
+            </button>
+
+            <button 
+              onClick={() => scrollToSection('media-partners')}
+              className="text-lg font-medium cursor-pointer hover:opacity-80 transition-opacity" 
+              style={{ color: "#f5950a" }}
+            >
+              Partners
+            </button>
+
+            <button 
+              onClick={() => window.open('https://www.notion.so/Accra-City-Guide-a3d7591db8a94cce9f49cfd39859a084', '_blank')}
+              className="text-lg font-medium cursor-pointer hover:opacity-80 transition-opacity" 
+              style={{ color: "#f5950a" }}
+            >
+              Hackers Guide
+            </button>
           </div>
 
           <button

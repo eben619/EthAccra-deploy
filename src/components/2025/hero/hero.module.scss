@@ -23,25 +23,31 @@
 }
 
 .dateText {
-  @apply text-[#2A2A2A] xl:text-[28px] font-medium lg:leading-[140%] text-[20px] leading-[140%];
+  @apply text-[#2A2A2A] xl:text-[24px] font-medium lg:leading-[140%] text-[20px] leading-[140%];
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dateEvents {
+  @apply text-[#2A2A2A] xl:text-[22px] font-medium lg:leading-[140%] text-[20px] leading-[140%];
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .venueText {
-  @apply text-[#2A2A2A] xl:text-[21px] font-medium lg:leading-[140%] text-[24px] leading-[140%];
+  @apply text-[#2A2A2A] xl:text-[19px] font-medium lg:leading-[140%] text-[24px] leading-[140%];
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 
 .descriptionText {
-  @apply text-[#2A2A2A] text-[28px] sm:text-[40px] lg:text-[57px] font-bold lg:leading-[120%] leading-[130%];
-  margin-bottom: 0.5rem;
+  @apply text-[#2A2A2A] text-[25px] sm:text-[35px] lg:text-[53px] font-bold lg:leading-[120%] leading-[130%];
+  margin-bottom: 1rem;
 }
 
 .buttonContainer {
   @apply flex justify-start;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .heroButton {
@@ -54,7 +60,7 @@
 /* Countdown Wrapper - includes countdown and MORE text */
 .countdownWrapper {
   @apply flex items-center gap-4;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 /* Countdown Timer Styles */

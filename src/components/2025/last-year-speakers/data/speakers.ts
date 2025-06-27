@@ -23,15 +23,15 @@ export const speakers: Speaker[] = [
   },
   {
     imageUrl: "/assets/pngs/hackathon/2023_speakers/simon-schmid.png",
-    name: "Simon Emanuel Schmid",
-    affiliation: "The Graph",
-    affiliationTwitterUrl: "https://x.com/GraphProtocol",
+    name: "Simon Schmid",
+    affiliation: "ENS",
+    affiliationTwitterUrl: "https://x.com/ensdomains",
     socials: {
       linkedin: "",
       x: "https://twitter.com/schmid_si",
     },
   },
-  {
+/*{
     imageUrl: "/assets/pngs/hackathon/2023_speakers/daniel-ifechukwu.png",
     name: "Daniel Ifechukwu",
     affiliation: "BuildGuidl",
@@ -40,12 +40,12 @@ export const speakers: Speaker[] = [
       linkedin: "",
       x: "https://twitter.com/dev_dahniel",
     },
-  },
+  },*/
   {
     imageUrl: "/assets/pngs/hackathon/2023_speakers/shantelle_awomoyi.png",
     name: "Shantelle Awomoyi",
-    affiliation: "Circles",
-    affiliationTwitterUrl: "https://x.com/aboutcircles?s=11",
+    affiliation: "Independent",
+    affiliationTwitterUrl: "",
     socials: {
       linkedin: "",
       x: "https://x.com/afrishan",
@@ -54,14 +54,14 @@ export const speakers: Speaker[] = [
   {
     imageUrl: "/assets/pngs/hackathon/2023_speakers/nana.jpeg",
     name: "Nana Opoku",
-    affiliation: "AFROSCOPE",
-    affiliationTwitterUrl: "https://afroscope.com/links",
+    affiliation: "Independent",
+    affiliationTwitterUrl: "",
     socials: {
       linkedin: "",
       x: "https://x.com/AFROSCOPE",
     },
   },
-  {
+  /*{
     imageUrl: "/assets/pngs/hackathon/2023_speakers/elo.jpeg",
     name: "Elo Mukoro",
     affiliation: "Privacy & Scaling Explorations (PSE)",
@@ -70,18 +70,18 @@ export const speakers: Speaker[] = [
       linkedin: "",
       x: "https://x.com/metachaser24?s=21",
     },
-  },
+  },*/
   {
     imageUrl: "/assets/pngs/hackathon/2023_speakers/santiago.jpeg",
-    name: "SantiagoDevRel",
-    affiliation: "Web3.js & ChainSafe",
-    affiliationTwitterUrl: "https://web3js.org",
+    name: "Santiago",
+    affiliation: "Lisk",
+    affiliationTwitterUrl: "https://lisk.com/",
     socials: {
       linkedin: "",
       x: "https://x.com/santiagodevrel",
     },
   },
-  {
+  /*{
     imageUrl: "/assets/pngs/hackathon/2023_speakers/lena-hierzi.png",
     name: "Lena Hierzi",
     affiliation: "Celo Foundation",
@@ -90,9 +90,9 @@ export const speakers: Speaker[] = [
       linkedin: "",
       x: "https://x.com/gigahierz?s=21",
     },
-  },
+  },*/
 
-  {
+  /*{
     imageUrl: "/assets/jpgs/hackathon/2024_speakers/e-etim.jpg",
     name: "Earnest Etim",
     affiliation: "NearAfrica",
@@ -100,6 +100,17 @@ export const speakers: Speaker[] = [
     socials: {
       linkedin: "",
       x: "https://x.com/EtimEarnest",
+    },
+  },
+  */
+   {
+    imageUrl: "/assets/pngs/hackathon/2023_speakers/0xkofi.jpg",
+    name: "0xKofi",
+    affiliation: "Independent",
+    affiliationTwitterUrl: "",
+    socials: {
+      linkedin: "",
+      x: "https://x.com/0xKofi",
     },
   },
 

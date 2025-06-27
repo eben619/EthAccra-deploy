@@ -181,16 +181,6 @@ const CollapsibleNav = ({
                   >
                     Speakers
                   </motion.a>
-
-                  <motion.a
-                    variants={listItemVariants}
-                    onClick={closeNavbarAction}
-                    href="https://taikai.network/ethaccra/hackathons/hackathon2024"
-                    target="_blank"
-                    className={styles.anchorLinks}
-                  >
-                    Projects
-                  </motion.a>
                   <motion.a
                     variants={listItemVariants}
                     onClick={(e) => scrollToSection(e, 'media-partners')}
@@ -198,6 +188,15 @@ const CollapsibleNav = ({
                     className={styles.anchorLinks}
                   >
                    Community & Media Partners
+                  </motion.a>
+                  <motion.a
+                    variants={listItemVariants}
+                    onClick={closeNavbarAction}
+                    href="https://www.notion.so/Accra-City-Guide-a3d7591db8a94cce9f49cfd39859a084"
+                    target="_blank"
+                    className={styles.anchorLinks}
+                  >
+                    Hackers Guide
                   </motion.a>
                 </div>
                 <div className="mt-16 flex flex-col gap-10">

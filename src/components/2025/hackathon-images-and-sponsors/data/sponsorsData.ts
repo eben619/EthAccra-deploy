@@ -43,6 +43,9 @@ export const hackathonSponsorsData = [
 
 export const platinumSponsors = [
   {
+    imageUrl: "",
+  },
+  /*{
     imageUrl: "/assets/svgs/hackathon/sponsors/optimism.svg",
     name: "optimism",
     url: "https://x.com/Optimism",
@@ -51,11 +54,16 @@ export const platinumSponsors = [
     imageUrl: "/assets/svgs/hackathon/sponsors/graph-white.svg",
     name: "graph",
     url: "https://x.com/GraphProtocol",
-  },
+  },*/
 ] as const;
 
 export const goldSponsors = [
-  {
+   {
+    imageUrl: "/assets/svgs/hackathon/sponsors/ens-logo.svg",
+    name: "ENS",
+    url: "https://x.com/ensdomains",
+  },
+  /*{
     imageUrl: "/assets/svgs/hackathon/sponsors/buildguidi-black.svg",
     name: "",
     url: "https://x.com/buidlguidl",
@@ -64,11 +72,17 @@ export const goldSponsors = [
     imageUrl: "/assets/svgs/hackathon/sponsors/esp-black.svg",
     name: "",
     url: "https://x.com/EF_ESP",
-  },
+  },*/
 ] as const;
 
 export const silverSponsors = [
   {
+    imageUrl: "/assets/jpgs/hackathon/vialabs.jpg",
+    name: "vialabs",
+    url: "https://x.com/VIA_Labs",
+  },
+
+  /*{
     imageUrl: "/assets/svgs/hackathon/sponsors/circles.svg",
     name: "circles",
     url: "https://x.com/aboutcircles?s=11",
@@ -87,16 +101,21 @@ export const silverSponsors = [
     imageUrl: "/assets/svgs/hackathon/sponsors/web3js.svg",
     name: "web3js",
     url: "https://x.com/web3_js",
-  },
+  },*/
 ] as const;
 
 export const supporters = [
+  {
+    imageUrl: "/assets/svgs/hackathon/sponsors/OP-logo1.svg",
+    name: "optimism",
+    url: "https://x.com/Optimism",
+  },
   {
     imageUrl: "/assets/svgs/hackathon/sponsors/taikai.svg",
     name: "",
     url: "https://x.com/taikainetwork",
   },
-  {
+  /*{
     imageUrl: "/assets/svgs/hackathon/sponsors/lisk.svg",
     name: "",
     url: "https://x.com/LiskHQ",
@@ -110,5 +129,5 @@ export const supporters = [
     imageUrl: "/assets/svgs/hackathon/sponsors/swiss-conf.svg",
     name: "",
     url: "https://www.eda.admin.ch/accra",
-  },
+  },*/
 ] as const;

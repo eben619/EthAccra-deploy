@@ -61,15 +61,18 @@ const Hero = () => {
               transition={{ duration: 0.3, ease: "easeInOut" }}
               viewport={{ once: true }}
             >
-              <p className={clsx(styles.descriptionText, 'mt-10')}>
+              <p className={clsx(styles.descriptionText)}>
                 Come for the hack.
                 <br />
                 Stay for the vibes.
               </p>
 
               <p className={clsx(styles.dateText)}>
-                3RD - 6TH SEPTEMBER, 2025
+                3RD SEPTEMBER, 2025 <span className="text-[#fc74c2]">--</span> <span className={clsx(styles.dateEvents)}>ETHAccra Developer Summit</span>
               </p>
+               <p className={clsx(styles.dateText)}>
+                4TH - 6TH SEPTEMBER, 2025 <span className="text-[#fc74c2]">--</span> <span className={clsx(styles.dateEvents)}>Hackathon</span>
+              </p><br/>
 
               <p className={clsx(styles.venueText)}>
                 ISSER Conference Hall, University of Ghana.
@@ -91,7 +94,7 @@ const Hero = () => {
 
               <div className={styles.buttonContainer}>
                 <a
-                  href="https://dorahacks.io/hackathon/ethaccrahackathon2025/detail"
+                  href="https://taikai.network/ethaccra/hackathons/Hackathon2025"
                   target="_blank"
                   className={clsx(styles.heroButton)}
                 >

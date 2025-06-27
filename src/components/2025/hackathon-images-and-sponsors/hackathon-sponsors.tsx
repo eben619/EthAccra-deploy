@@ -18,7 +18,7 @@ const HackathonSponsors = () => {
             transition={{ duration: 0.1, delay: 0, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
-            2024 Sponsors
+            2025 Sponsors
           </motion.h1>
           <a
             className={clsx(styles.primaryLink, "text-white")}
