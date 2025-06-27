@@ -43,7 +43,6 @@ const HackathonSponsors = () => {
                 platinumSponsors.map((curr, idx) => {
                   return (
                     <a
-                      target="_blank"
                       href={curr.url}
                       key={idx}
                       className={styles.imageCol}
