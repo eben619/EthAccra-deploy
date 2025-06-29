@@ -30,14 +30,14 @@ const HackathonSponsors = () => {
         </div>
           <div className="mt-16"></div>
 
-          <div role="divider" className="mt-[72px]"></div>
-
+         {/* <div role="divider" className="mt-[72px]"></div> 
+         
           <div>
             <div>
               <HeadingText text={"Platinum Sponsors"}></HeadingText>
               <div role="divider" className="mb-6"></div>
             </div>
-
+            
             <div className={styles.imagesRow}>
               {platinumSponsors &&
                 platinumSponsors.map((curr, idx) => {
@@ -78,6 +78,7 @@ const HackathonSponsors = () => {
                 })}
             </div>
           </div>
+         */} 
 
           <div role="divider" className="mt-[72px]"></div>
 
