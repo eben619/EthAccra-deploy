@@ -81,7 +81,7 @@ export const speakers: Speaker[] = [
       x: "https://x.com/santiagodevrel",
     },
   },
-  /*{
+  {
     imageUrl: "/assets/pngs/hackathon/2023_speakers/lena-hierzi.png",
     name: "Lena Hierzi",
     affiliation: "Celo Foundation",
@@ -90,7 +90,7 @@ export const speakers: Speaker[] = [
       linkedin: "",
       x: "https://x.com/gigahierz?s=21",
     },
-  },*/
+  },
 
   /*{
     imageUrl: "/assets/jpgs/hackathon/2024_speakers/e-etim.jpg",
