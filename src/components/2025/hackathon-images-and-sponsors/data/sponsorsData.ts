@@ -108,7 +108,7 @@ export const silverSponsors = [
 
 export const supporters = [
   {
-    imageUrl: "/assets/svgs/hackathon/sponsors/OP-logo1.svg",
+    imageUrl: "/assets/svgs/hackathon/sponsors/OP-logo.svg",
     name: "optimism",
     url: "https://x.com/Optimism",
   },
