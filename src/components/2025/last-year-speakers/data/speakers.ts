@@ -23,8 +23,8 @@ export const speakers: Speaker[] = [
   },
   {
     imageUrl: "/assets/pngs/hackathon/2023_speakers/simon-schmid.png",
-    name: "Simon Schmid",
-    affiliation: "ENS",
+    name: "Simon Emanuel Schmid",
+    affiliation: "ENS Labs",
     affiliationTwitterUrl: "https://x.com/ensdomains",
     socials: {
       linkedin: "",
@@ -104,7 +104,7 @@ export const speakers: Speaker[] = [
   },
   */
    {
-    imageUrl: "/assets/pngs/hackathon/2023_speakers/0xkofi.jpg",
+    imageUrl: "/assets/pngs/hackathon/2023_speakers/0xkofi1.png",
     name: "0xKofi",
     affiliation: "Independent",
     affiliationTwitterUrl: "",
