@@ -87,6 +87,9 @@
   @apply rounded-2xl bg-[#000000] max-h-full h-[160px] py-[22px] px-[52px] w-full flex items-center justify-center;
   position: relative;
   z-index: 1;
+  
+  // Add specific background for ENS
+  @apply data-[bgcolor='ENS']:bg-[#ffffff];
 }
 
 .sponsorsImageCover {

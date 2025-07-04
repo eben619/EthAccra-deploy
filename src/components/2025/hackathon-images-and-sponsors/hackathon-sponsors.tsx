@@ -152,6 +152,7 @@ const HackathonSponsors = () => {
                           styles.silverImageCover,
                           styles.scaleCover
                         )}
+                        data-bgcolor={curr.name}
                         initial={{ y: 100 }}
                         whileInView={{ y: 0 }}
                         transition={{

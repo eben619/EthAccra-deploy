@@ -84,7 +84,7 @@ export const goldSponsors = [
 
 export const silverSponsors = [
   {
-    imageUrl: "/assets/svgs/hackathon/sponsors/ens-logo-white.svg",
+    imageUrl: "/assets/svgs/hackathon/sponsors/ens-logo.svg",
     name: "ENS",
     url: "https://x.com/ensdomains",
   },
