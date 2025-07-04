@@ -60,10 +60,15 @@ export const platinumSponsors = [
 ] as const;
 
 export const goldSponsors = [
-   {
+   /*{
     imageUrl: "/assets/svgs/hackathon/sponsors/ens-logo.svg",
     name: "ENS",
     url: "https://x.com/ensdomains",
+  },*/
+  {
+    imageUrl: "",
+    name: "",
+    url: "#sponsors",
   },
   /*{
     imageUrl: "/assets/svgs/hackathon/sponsors/buildguidi-black.svg",
@@ -78,6 +83,12 @@ export const goldSponsors = [
 ] as const;
 
 export const silverSponsors = [
+  {
+    imageUrl: "/assets/svgs/hackathon/sponsors/ens-logo-white.svg",
+    name: "ENS",
+    url: "https://x.com/ensdomains",
+  },
+
   {
     imageUrl: "/assets/jpgs/hackathon/vialabs.jpg",
     name: "vialabs",
