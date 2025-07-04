@@ -15,7 +15,7 @@ const Hero = () => {
   // Calculate time remaining to September 3, 2025
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const targetDate = new Date('September 3, 2025 00:00:00').getTime();
+      const targetDate = new Date('September 4, 2025 00:00:00').getTime();
       const now = new Date().getTime();
       const difference = targetDate - now;
       
