@@ -192,7 +192,7 @@ const CollapsibleNav = ({
                   <motion.a
                     variants={listItemVariants}
                     onClick={closeNavbarAction}
-                    href="https://www.notion.so/Accra-City-Guide-a3d7591db8a94cce9f49cfd39859a084"
+                    href="https://www.notion.so/ETHAccra-Hacker-Manual-1e7f186ffe3b424c94dabeb240f7f1fc"
                     target="_blank"
                     className={styles.anchorLinks}
                   >
