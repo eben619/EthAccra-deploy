@@ -128,11 +128,17 @@ export const supporters = [
     name: "",
     url: "https://x.com/taikainetwork",
   },
+  {
+    imageUrl: "/assets/svgs/hackathon/sponsors/esp.svg",
+    name: "",
+    url: "https://twitter.com/EF_ESP",
+  },
   /*{
     imageUrl: "/assets/svgs/hackathon/sponsors/lisk.svg",
     name: "",
     url: "https://x.com/LiskHQ",
   },
+  
   {
     imageUrl: "/assets/svgs/hackathon/sponsors/her-dao.svg",
     name: "",
