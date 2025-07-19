@@ -78,7 +78,7 @@
 }
 
 .goldImageCover {
-  @apply rounded-2xl bg-[#ffffff] max-h-full h-[160px] py-[22px] px-[52px] w-full flex items-center justify-center;
+  @apply rounded-2xl bg-[#ffffff] max-h-full h-[220px] py-[30px] px-[70px] w-full flex items-center justify-center;
   position: relative;
   z-index: 1;
 }
@@ -93,7 +93,7 @@
 }
 
 .sponsorsImageCover {
-  @apply py-[58px] px-[91px] rounded-2xl border-[3px] border-[#F1F1F1];
+  @apply py-[40px] px-[60px] rounded-2xl border-[3px] border-[#F1F1F1];
   @apply rounded-2xl bg-[#FAFAFA] max-h-full h-[160px] w-full flex items-center justify-center;
   position: relative;
   z-index: 1;

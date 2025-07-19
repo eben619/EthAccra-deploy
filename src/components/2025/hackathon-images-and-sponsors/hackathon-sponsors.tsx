@@ -79,7 +79,6 @@ const HackathonSponsors = () => {
             </div>
           </div>
          */} 
-        {/*
         <div role="divider" className="mt-[72px]"></div>
 
           <div className="">
@@ -128,7 +127,6 @@ const HackathonSponsors = () => {
                 })}
             </div>
           </div>
-        */}
           <div role="divider" className="mt-[72px]"></div>
 
           <div>
