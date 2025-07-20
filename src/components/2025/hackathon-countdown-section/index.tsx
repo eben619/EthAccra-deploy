@@ -7,7 +7,7 @@ const HackathonCountdownSection = () => {
       <section className={styles.hackathonSectionMain}>
         <div className={styles.innerContainer}>
           <div>
-            <h2 className={styles.cashPrizeText}>USD 5,000</h2>
+            <h2 className={styles.cashPrizeText}>USD 8,000</h2>
             <p className={styles.cashPrizeSupportingText}>& more in prizes</p>
           </div>
           <div>
