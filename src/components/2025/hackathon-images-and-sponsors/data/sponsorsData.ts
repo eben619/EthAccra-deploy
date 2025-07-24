@@ -1,7 +1,7 @@
 export const hackathonSponsorsData = [
   {
     imageUrl: "/assets/svgs/hackathon/sponsors/esp.svg",
-    name: "",
+    name: "ESP",
     url: "https://twitter.com/EF_ESP",
   },
   {
@@ -79,11 +79,21 @@ export const goldSponsors = [
 
 export const silverSponsors = [
  {
-    imageUrl: "/assets/jpgs/hackathon/vialabs.jpg",
+    imageUrl: "/assets/pngs/2025/Vialabs-black.png",
     name: "vialabs",
     url: "https://x.com/VIA_Labs",
   },
-
+  {
+    imageUrl: "/assets/svgs/hackathon/sponsors/esp.svg",
+    name: "",
+    url: "https://twitter.com/EF_ESP",
+  },
+  
+  {
+    imageUrl: "/assets/pngs/2025/base-blue.png",
+    name: "Base",
+    url: "https://x.com/base",
+  },
   /*{
     imageUrl: "/assets/svgs/hackathon/sponsors/circles.svg",
     name: "circles",
@@ -116,11 +126,6 @@ export const supporters = [
     imageUrl: "/assets/svgs/hackathon/sponsors/taikai.svg",
     name: "",
     url: "https://x.com/taikainetwork",
-  },
-  {
-    imageUrl: "/assets/svgs/hackathon/sponsors/esp.svg",
-    name: "",
-    url: "https://twitter.com/EF_ESP",
   },
   /*{
     imageUrl: "/assets/svgs/hackathon/sponsors/lisk.svg",

@@ -78,18 +78,18 @@
 }
 
 .goldImageCover {
-  @apply rounded-2xl bg-[#ffffff] max-h-full h-[220px] py-[30px] px-[70px] w-full flex items-center justify-center;
+  @apply rounded-2xl bg-[#ffffff] max-h-full h-[190px] py-[30px] px-[70px] w-full flex items-center justify-center;
   position: relative;
   z-index: 1;
 }
 
 .silverImageCover {
-  @apply rounded-2xl bg-[#000000] max-h-full h-[180px] py-[28px] px-[58px] w-full flex items-center justify-center;
+  @apply rounded-2xl bg-[#ffffff] max-h-full h-[180px] py-[28px] px-[58px] w-full flex items-center justify-center;
   position: relative;
   z-index: 1;
-  
-  // Add specific background for ENS
-  @apply data-[bgcolor='ENS']:bg-[#ffffff];
+    
+  // Add specific black background for Vialabs
+  @apply data-[bgcolor='Vialabs']:bg-[#000000];
 }
 
 .sponsorsImageCover {
@@ -131,7 +131,8 @@
   background-color: #FF5CB9;
   position: relative;
   z-index: 1;
-
+  // Only Vialabs should have black background in silver sponsors
+  
   &:hover {
     background: linear-gradient(180deg, #ff82c7 0%, #ff3e9c 100%);
   }
