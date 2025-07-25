@@ -21,7 +21,7 @@
 .imagesRowSilverSponsors {
   @apply flex flex-col justify-center md:flex-row md:flex-wrap md:items-center md:justify-center gap-6 md:gap-0;
   // @apply mx-auto md:-mx-3;
-  @apply mx-auto max-w-4xl;
+  @apply mx-auto max-w-[950px];
   position: relative;
   z-index: 1;
 }
@@ -78,13 +78,13 @@
 }
 
 .goldImageCover {
-  @apply rounded-2xl bg-[#ffffff] max-h-full h-[190px] py-[30px] px-[70px] w-full flex items-center justify-center;
+  @apply rounded-2xl bg-[#ffffff] max-h-full h-[180px] py-[30px] px-[58px] w-full flex items-center justify-center;
   position: relative;
   z-index: 1;
 }
 
 .silverImageCover {
-  @apply rounded-2xl bg-[#ffffff] max-h-full h-[180px] py-[28px] px-[58px] w-full flex items-center justify-center;
+  @apply rounded-2xl bg-[#ffffff] max-h-full h-[180px] py-[30px] px-[58px] w-full flex items-center justify-center;
   position: relative;
   z-index: 1;
     
@@ -93,7 +93,7 @@
 }
 
 .sponsorsImageCover {
-  @apply py-[40px] px-[60px] rounded-2xl border-[3px] border-[#F1F1F1];
+  @apply py-[45px] px-[60px] rounded-2xl border-[3px] border-[#F1F1F1];
   @apply rounded-2xl bg-[#FAFAFA] max-h-full h-[160px] w-full flex items-center justify-center;
   position: relative;
   z-index: 1;

@@ -45,7 +45,7 @@ export const speakers: Speaker[] = [
     imageUrl: "/assets/pngs/hackathon/2023_speakers/shantelle_awomoyi.png",
     name: "Shantelle Awomoyi",
     affiliation: "Independent",
-    affiliationTwitterUrl: "",
+    affiliationTwitterUrl: "https://x.com/afrishan",
     socials: {
       linkedin: "",
       x: "https://x.com/afrishan",
@@ -55,7 +55,7 @@ export const speakers: Speaker[] = [
     imageUrl: "/assets/pngs/hackathon/2023_speakers/nana.jpeg",
     name: "Nana Opoku",
     affiliation: "Independent",
-    affiliationTwitterUrl: "",
+    affiliationTwitterUrl: "https://x.com/AFROSCOPE",
     socials: {
       linkedin: "",
       x: "https://x.com/AFROSCOPE",
@@ -91,7 +91,36 @@ export const speakers: Speaker[] = [
       x: "https://x.com/gigahierz?s=21",
     },
   },
-
+  {
+    imageUrl: "/assets/pngs/hackathon/2023_speakers/0xkofi1.png",
+    name: "0xKofi",
+    affiliation: "Base",
+    affiliationTwitterUrl: "https://x.com/base",
+    socials: {
+      linkedin: "",
+      x: "https://x.com/0xKofi",
+    },
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon/2023_speakers/dami.png",
+    name: "Dami",
+    affiliation: "Base",
+    affiliationTwitterUrl: "https://x.com/base",
+    socials: {
+      linkedin: "",
+      x: "https://x.com/Sir_Damilare?t=YNLXTEntJefPwP_2xNsrlA&s=09",
+    },
+  },
+{
+    imageUrl: "/assets/pngs/hackathon/2023_speakers/brantley.png",
+    name: "brantley.eth",
+    affiliation: "Independent",
+    affiliationTwitterUrl: "https://x.com/brantlymillegan?s=11",
+    socials: {
+      linkedin: "",
+      x: "https://x.com/brantlymillegan?s=11",
+    },
+  },
   /*{
     imageUrl: "/assets/jpgs/hackathon/2024_speakers/e-etim.jpg",
     name: "Earnest Etim",
@@ -103,16 +132,7 @@ export const speakers: Speaker[] = [
     },
   },
   */
-   {
-    imageUrl: "/assets/pngs/hackathon/2023_speakers/0xkofi1.png",
-    name: "0xKofi",
-    affiliation: "Independent",
-    affiliationTwitterUrl: "",
-    socials: {
-      linkedin: "",
-      x: "https://x.com/0xKofi",
-    },
-  },
+   
 
 
 //   {

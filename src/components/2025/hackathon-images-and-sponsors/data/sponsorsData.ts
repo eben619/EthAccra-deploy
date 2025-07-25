@@ -127,6 +127,16 @@ export const supporters = [
     name: "",
     url: "https://x.com/taikainetwork",
   },
+  {
+    imageUrl: "/assets/svgs/hackathon/sponsors/buildguidi.svg",
+    name: "",
+    url: "https://twitter.com/buidlguidl",
+  },
+  {
+    imageUrl: "/assets/pngs/2025/efp-logo.png",
+    name: "",
+    url: "https://x.com/efp",
+  }
   /*{
     imageUrl: "/assets/svgs/hackathon/sponsors/lisk.svg",
     name: "",
