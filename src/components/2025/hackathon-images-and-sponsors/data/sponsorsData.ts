@@ -78,11 +78,11 @@ export const goldSponsors = [
 ] as const;
 
 export const silverSponsors = [
- {
+ /*{
     imageUrl: "/assets/pngs/2025/Vialabs-black.png",
     name: "vialabs",
     url: "https://x.com/VIA_Labs",
-  },
+  },*/
   {
     imageUrl: "/assets/svgs/hackathon/sponsors/esp.svg",
     name: "",
