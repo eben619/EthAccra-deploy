@@ -74,11 +74,11 @@ const mediaAndCommunityPartnersData = [
     name: "",
     url: "https://x.com/mowblox",
   },
-  {
+  /*{
     imageUrl: "/assets/pngs/2025/kwekutech.png",
     name: "",
     url: "https://x.com/kwekutech",
-  },
+  },*/
   {
     imageUrl: "/assets/svgs/media-and-community/new/near.svg",
     name: "",
