@@ -118,6 +118,11 @@ export const silverSponsors = [
 
 export const supporters = [
   {
+    imageUrl: "/assets/svgs/hackathon/sponsors/lisk.svg",
+    name: "",
+    url: "https://x.com/LiskHQ",
+  },
+  {
     imageUrl: "/assets/svgs/hackathon/sponsors/OP-logo.svg",
     name: "optimism",
     url: "https://x.com/Optimism",
