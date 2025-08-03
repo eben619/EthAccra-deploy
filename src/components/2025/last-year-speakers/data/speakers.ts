@@ -113,7 +113,7 @@ export const speakers: Speaker[] = [
   },
 {
     imageUrl: "/assets/pngs/hackathon/2023_speakers/brantley.png",
-    name: "brantley.eth",
+    name: "Brantley",
     affiliation: "Ethereum Follow Protocol",
     affiliationTwitterUrl: "https://x.com/efp",
     socials: {
