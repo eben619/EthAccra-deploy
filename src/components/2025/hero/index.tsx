@@ -86,13 +86,20 @@ const Hero = () => {
                 >
                   APPLY TO SPEAK
                 </a>
-              </div>
+              </div><br />
               <p className={clsx(styles.dateText)}>
                 4TH - 6TH SEPTEMBER, 2025 <span className="text-[#fc74c2]">--</span> <span className={clsx(styles.dateEvents)}>Hackathon</span>
               </p>
+              <a
+                  href="https://taikai.network/ethaccra/hackathons/Hackathon2025"
+                  target="_blank"
+                  className={clsx(styles.heroButton)}
+                >
+                  APPLY TO HACK
+                </a><br />
               <p className={clsx(styles.venueText)}>
                 ISSER Conference Hall, University of Ghana.
-              </p>
+              </p>   
               {/* Countdown Timer with MORE text */}
               <div className={styles.countdownWrapper}>
                 <div className={styles.countdownContainer}>
@@ -105,14 +112,7 @@ const Hero = () => {
                     <span className={styles.countdownLabel}>Hours</span>
                   </div>
                 </div>
-              </div>
-               <a
-                  href="https://taikai.network/ethaccra/hackathons/Hackathon2025"
-                  target="_blank"
-                  className={clsx(styles.heroButton)}
-                >
-                  APPLY TO HACK
-                </a>       
+              </div>   
             </motion.div>
           </div>
         </div>
