@@ -73,7 +73,7 @@ const Hero = () => {
               {/* Buttons Container - Side by Side */}
               <div className={styles.buttonsContainer}>
                 <a
-                  href="https://taikai.network/ethaccra/hackathons/Hackathon2025"
+                  href="https://lu.ma/5svbuw6r"
                   target="_blank"
                   className={clsx(styles.heroButton)}
                 >
@@ -105,7 +105,14 @@ const Hero = () => {
                     <span className={styles.countdownLabel}>Hours</span>
                   </div>
                 </div>
-              </div>       
+              </div><br />
+               <a
+                  href="https://taikai.network/ethaccra/hackathons/Hackathon2025"
+                  target="_blank"
+                  className={clsx(styles.heroButton)}
+                >
+                  APPLY TO HACK
+                </a>       
             </motion.div>
           </div>
         </div>
