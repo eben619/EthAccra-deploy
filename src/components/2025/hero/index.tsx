@@ -70,14 +70,29 @@ const Hero = () => {
               <p className={clsx(styles.dateText)}>
                 3RD SEPTEMBER, 2025 <span className="text-[#fc74c2]">--</span> <span className={clsx(styles.dateEvents)}>ETHAccra Developer Summit</span>
               </p>
-               <p className={clsx(styles.dateText)}>
+              {/* Buttons Container - Side by Side */}
+              <div className={styles.buttonsContainer}>
+                <a
+                  href="https://taikai.network/ethaccra/hackathons/Hackathon2025"
+                  target="_blank"
+                  className={clsx(styles.heroButton)}
+                >
+                  APPLY TO ATTEND
+                </a>
+                <a
+                  href="https://forms.gle/36o85R9wKZNrJ3pg9"
+                  target="_blank"
+                  className={clsx(styles.heroButton1)}
+                >
+                  APPLY TO SPEAK
+                </a>
+              </div><br />
+              <p className={clsx(styles.dateText)}>
                 4TH - 6TH SEPTEMBER, 2025 <span className="text-[#fc74c2]">--</span> <span className={clsx(styles.dateEvents)}>Hackathon</span>
-              </p><br/>
-
+              </p>
               <p className={clsx(styles.venueText)}>
                 ISSER Conference Hall, University of Ghana.
               </p>
-            
               {/* Countdown Timer with MORE text */}
               <div className={styles.countdownWrapper}>
                 <div className={styles.countdownContainer}>
@@ -90,17 +105,7 @@ const Hero = () => {
                     <span className={styles.countdownLabel}>Hours</span>
                   </div>
                 </div>
-              </div>
-
-              <div className={styles.buttonContainer}>
-                <a
-                  href="https://taikai.network/ethaccra/hackathons/Hackathon2025"
-                  target="_blank"
-                  className={clsx(styles.heroButton)}
-                >
-                  APPLY NOW
-                </a>
-              </div>
+              </div>       
             </motion.div>
           </div>
         </div>

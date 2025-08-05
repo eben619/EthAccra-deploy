@@ -50,11 +50,26 @@
   margin-top: 1rem;
 }
 
+/* New buttons container for side-by-side layout */
+.buttonsContainer {
+  @apply flex justify-start gap-4;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
 .heroButton {
   @apply inline-flex items-center justify-center rounded-[16px] text-center text-[18px] font-bold leading-[125%]
     px-6 py-3 text-white hover:bg-[#fafafa] hover:border hover:text-[#fc74c2];
   background-color: #fc74c2;
   border: 1px solid transparent;
+  min-width: 180px;
+}
+.heroButton1 {
+  @apply inline-flex items-center justify-center rounded-[16px] text-center text-[18px] font-bold leading-[125%]
+    px-6 py-3 text-white hover:bg-[#fafafa] hover:border hover:text-[#f7931a];
+  background-color: #f7931a;
+  border: 1px solid transparent;
+  min-width: 180px;
 }
 
 /* Countdown Wrapper - includes countdown and MORE text */
@@ -135,6 +150,17 @@
   .buttonContainer {
     @apply justify-center;
     margin-top: 0.5rem;
+  }
+
+  /* Mobile styles for buttons container */
+  .buttonsContainer {
+    @apply flex-col justify-center gap-3;
+    margin-top: 0.5rem;
+  }
+
+  .heroButton {
+    @apply w-full;
+    min-width: auto;
   }
 
   .venueText {
