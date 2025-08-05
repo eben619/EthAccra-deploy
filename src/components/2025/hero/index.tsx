@@ -105,7 +105,7 @@ const Hero = () => {
                     <span className={styles.countdownLabel}>Hours</span>
                   </div>
                 </div>
-              </div><br />
+              </div>
                <a
                   href="https://taikai.network/ethaccra/hackathons/Hackathon2025"
                   target="_blank"
