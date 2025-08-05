@@ -86,7 +86,7 @@ const Hero = () => {
                 >
                   APPLY TO SPEAK
                 </a>
-              </div><br />
+              </div>
               <p className={clsx(styles.dateText)}>
                 4TH - 6TH SEPTEMBER, 2025 <span className="text-[#fc74c2]">--</span> <span className={clsx(styles.dateEvents)}>Hackathon</span>
               </p>
