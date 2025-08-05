@@ -8,7 +8,7 @@
 }
 
 .heroRightContainer {
-  @apply flex flex-col justify-start items-start pr-4 md:pr-8 lg:pr-16 xl:pr-24;
+  @apply flex flex-col justify-start items-start pr-4 md:pr-8 lg:pr-16 xl:pl-24;
   width: 40%;
 }
 
@@ -62,14 +62,19 @@
     px-6 py-3 text-white hover:bg-[#fafafa] hover:border hover:text-[#fc74c2];
   background-color: #fc74c2;
   border: 1px solid transparent;
-  min-width: 180px;
+  min-width: 200px;
+  width: 200px;
+  white-space: nowrap;
 }
+
 .heroButton1 {
   @apply inline-flex items-center justify-center rounded-[16px] text-center text-[18px] font-bold leading-[125%]
     px-6 py-3 text-white hover:bg-[#fafafa] hover:border hover:text-[#f7931a];
   background-color: #f7931a;
   border: 1px solid transparent;
-  min-width: 180px;
+  min-width: 200px;
+  width: 200px;
+  white-space: nowrap;
 }
 
 /* Countdown Wrapper - includes countdown and MORE text */
@@ -158,9 +163,11 @@
     margin-top: 0.5rem;
   }
 
-  .heroButton {
+  .heroButton,
+  .heroButton1 {
     @apply w-full;
     min-width: auto;
+    width: auto;
   }
 
   .venueText {
