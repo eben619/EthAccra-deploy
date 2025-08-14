@@ -5,6 +5,11 @@ import { motion } from "framer-motion";
 
 const mediaAndCommunityPartnersData = [
   {
+    imageUrl: "/assets/svgs/media-and-community/new/dev3pack.svg",
+    name: "",
+    url: "https://x.com/dev3pack",
+  },
+  {
     imageUrl: "/assets/svgs/media-and-community/new/cointelegraph.svg",
     name: "",
     url: "https://x.com/Cointelegraph",
