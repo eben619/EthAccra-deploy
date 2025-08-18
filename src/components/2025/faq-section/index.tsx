@@ -13,6 +13,25 @@ const FaqSection: React.FC = () => {
     setOpenItem(openItem === id ? null : id);
   };
 
+  const renderTextWithLinks = (text: string) => {
+    // Split text by URLs and email addresses while preserving them
+    const parts = text.split(/(https:\/\/t\.me\/c\/1785270528\/1|https:\/\/chat\.whatsapp\.com\/ILyl3Jlkwjm7HhyOXJNCMm|https:\/\/taikai\.network\/ethaccra\/hackathons\/hackathon2024|info@ethaccra\.xyz)/g);
+    
+    return parts.map((part, index) => {
+      if (part === 'https://t.me/c/1785270528/1') {
+        return <a key={index} href="https://t.me/c/1785270528/1" className="text-orange-500 underline" target="_blank" rel="noopener noreferrer">Telegram</a>;
+      } else if (part === 'https://chat.whatsapp.com/ILyl3Jlkwjm7HhyOXJNCMm') {
+        return <a key={index} href="https://chat.whatsapp.com/ILyl3Jlkwjm7HhyOXJNCMm" className="text-orange-500 underline" target="_blank" rel="noopener noreferrer">WhatsApp</a>;
+      } else if (part === 'https://taikai.network/ethaccra/hackathons/hackathon2024') {
+        return <a key={index} href="https://taikai.network/ethaccra/hackathons/hackathon2024" className="text-orange-500 underline" target="_blank" rel="noopener noreferrer">TAIKAI platform</a>;
+      } else if (part === 'info@ethaccra.xyz') {
+        return <a key={index} href="mailto:info@ethaccra.xyz" className="text-orange-500 underline">Email</a>;
+      } else {
+        return part;
+      }
+    });
+  };
+
   const faqItems: FaqItem[] = [
     {
       id: "item-1",
@@ -37,7 +56,7 @@ const FaqSection: React.FC = () => {
     {
       id: "item-5",
       question: "How do I register?",
-      answer: "Registration is open on our TAIKAI platform: https://taikai.network/ethaccra/hackathons/hackathon2024\n\nCandidates must register individually, bulk company registrations are not accepted."
+      answer: "Registration is open on our https://taikai.network/ethaccra/hackathons/hackathon2024\n\nCandidates must register individually, bulk company registrations are not accepted."
     },
     {
       id: "item-6",
@@ -127,7 +146,7 @@ const FaqSection: React.FC = () => {
     {
       id: "item-23",
       question: "How do I contact mentors or the ETHAccra team?",
-      answer: "Mentors are available during the event for guidance.\n\nFor questions, email info@ethaccra.xyz.\n\nJoin our community chats on:\n• Telegram: https://t.me/c/1785270528/1\n• WhatsApp: https://chat.whatsapp.com/ILyl3Jlkwjm7HhyOXJNCMm"
+      answer: "Mentors are available during the event for guidance.\n\nFor questions, email info@ethaccra.xyz.\n\nJoin our community chats on:\n• https://t.me/c/1785270528/1\n• https://chat.whatsapp.com/ILyl3Jlkwjm7HhyOXJNCMm"
     },
     {
       id: "item-24",
@@ -198,10 +217,10 @@ const FaqSection: React.FC = () => {
             </div>
             {openItem === item.id && (
               <div className="px-4 pb-6">
-                <p className="text-black whitespace-pre-line">
+                <div className="text-black whitespace-pre-line">
                   {item.answer.split("\n\n").map((paragraph, i) => (
                     <React.Fragment key={i}>
-                      {paragraph}
+                      <span>{renderTextWithLinks(paragraph)}</span>
                       {i < item.answer.split("\n\n").length - 1 && (
                         <>
                           <br />
@@ -210,7 +229,7 @@ const FaqSection: React.FC = () => {
                       )}
                     </React.Fragment>
                   ))}
-                </p>
+                </div>
                 {item.id === "item-31" && (
                   <p className="mt-2">
                     You can reach out to the ETHAccra team on
