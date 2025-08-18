@@ -17,57 +17,157 @@ const FaqSection: React.FC = () => {
     {
       id: "item-1",
       question: "What is ETHAccra?",
-      answer: "ETHAccra is a community-led hackathon focused on the Ethereum Community."
+      answer: "ETHAccra is a community-led hackathon and conference focused on the Ethereum community. It brings together developers, designers, students, and blockchain enthusiasts to collaborate intensively on Ethereum-based projects over a few days, fostering innovation and learning."
     },
     {
       id: "item-2",
-      question: "Who can attend ETHAccra?",
-      answer: "ETHAccra welcomes a diverse range of attendees, specifically catering to university students, developers aiming to delve into blockchain development, seasoned web3 builders, and individuals equipped with skills in areas such as project management or UI/UX."
+      question: "Who can participate in ETHAccra?",
+      answer: "This hackathon is for everyone, technical and non-technical, experienced builders and complete beginners. Developers, designers, students, community organizers, curious minds, if you're excited to learn and build, ETHAccra is for you."
     },
     {
       id: "item-3",
-      question: "I am new to the Ethereum Community, can I participate?",
-      answer: "Absolutely! The hackathon is an inclusive space where technical skills, as well as non-technical expertise, are highly valued, making it accessible to both beginners and experienced professionals alike."
+      question: "Do I need to know how to code?",
+      answer: "Solo participants: Coding skills are essential to build your project.\n\nTeam participants: Coding is not mandatory; non-technical skills like design, project management, and research are valuable."
     },
     {
       id: "item-4",
-      question: "How much does it costs to attend?",
-      answer: "ETHAccra is free for hackers."
+      question: "Can I build my project solo?",
+      answer: "Yes! Solo projects are welcome, whether you prefer to work alone or just enjoy the individual challenge."
     },
     {
       id: "item-5",
-      question: "Will ETHAccra Offer travel scholarships to participants?",
-      answer: "ETHAccra is free-of-charge for hackers thanks to the support of our sponsors. However, unfortunately the event is not able to cover travel or other expenses for attendees at the moment."
+      question: "How do I register?",
+      answer: "Registration is open on our TAIKAI platform: https://taikai.network/ethaccra/hackathons/hackathon2024\n\nCandidates must register individually, bulk company registrations are not accepted."
     },
     {
       id: "item-6",
-      question: "How many people can be on the team?",
-      answer: "You can form teams of up to 5 people. There are no restrictions for team members, so you can team up with hackers of any country or experience level!"
+      question: "How are applicants selected?",
+      answer: "Selection is based on:\n\n• Your profile pitch and personal bio (not CVs)\n• Demonstrated passion, potential, and motivation\n• Previous engagement in ETHAccra (if applicable)\n\nWe prioritize participation and enthusiasm over formal resumes."
     },
     {
       id: "item-7",
-      question: "When does the ETHAccra hackathon start?",
-      answer: "ETHAccra is a 3-day hackathon that kicks off on the 3rd of September with onsite, workshops and exclusive networking events to welcome our hackers.\n\nBuilding time starts officially in the morning, on the 4th of September.\n\nProjects will be submitted in the morning on the 6th of September, with the Closing Ceremony and the Afterparty to follow."
+      question: "Is there a cost to attend?",
+      answer: "No, ETHAccra is free for all selected participants, thanks to our generous sponsors."
     },
     {
       id: "item-8",
-      question: "Can i start working on my hacking project before the event?",
-      answer: "No. In the interest of fairness, attendees should not be working on their project or ideas prior to the start of ETHAccra and we do not allow participants to work on pre-existing projects. However you may prepare by being acquainted with all of the tools and technologies that you want to use."
+      question: "Does ETHAccra offer travel or accommodation support?",
+      answer: "Accommodation is complimentary for confirmed hackers. Travel support is not provided at the moment, but any updates on discounts or partnerships will be shared as the event approaches."
     },
     {
       id: "item-9",
-      question: "What are the prizes for the winning teams?",
-      answer: "The prizes will be announced closer to the event date."
+      question: "When and where is ETHAccra held?",
+      answer: "Venue: ISSER Conference Hall, University of Ghana - Legon, a central location with nearby hotels.\n\nDates:\n• September 3: Onsite workshops and networking\n• September 4-6: Hackathon days (building starts on the 4th morning, submission on the 6th morning)\n• Closing ceremony and afterparty on September 6"
     },
     {
       id: "item-10",
-      question: "Is ETHAccra happening in person? Can I participate remotely?",
-      answer: "ETHAccra hackathon will take place in an offline form in order to ensure the best possible networking and cooperation. All team members need to be in the venue during the judging process."
+      question: "Is ETHAccra an in-person or remote event?",
+      answer: "ETHAccra is an in-person event to maximise networking and collaboration. All team members must be physically present during judging."
     },
     {
       id: "item-11",
-      question: "I have a question that is not listed here. Who can I ask?",
-      answer: ""
+      question: "How long is the hackathon? Is it a 24-hour event?",
+      answer: "The coding competition runs for 48 hours.\n\nDue to venue regulations, the hall closes at 9 PM and reopens at 7 AM. Participants can continue working outside the venue during closed hours."
+    },
+    {
+      id: "item-12",
+      question: "Can I start working on my project before the event?",
+      answer: "No. To ensure fairness, pre-existing projects or early work on hackathon ideas are not allowed. You may prepare by learning tools and technologies beforehand."
+    },
+    {
+      id: "item-13",
+      question: "Can I submit two projects to the hackathon?",
+      answer: "No, each participant or team is allowed to submit only one project. This ensures fairness and allows all participants to focus their efforts on creating the best possible solution."
+    },
+    {
+      id: "item-14",
+      question: "How many people can be on a team?",
+      answer: "Teams can have up to 5 members. There are no restrictions on nationality or experience level."
+    },
+    {
+      id: "item-15",
+      question: "Will there be food and beverages?",
+      answer: "Yes! Lunch, dinner, snacks, coffee, tea, and non-alcoholic drinks will be provided free of charge throughout the event."
+    },
+    {
+      id: "item-16",
+      question: "Is there Wi-Fi at the venue?",
+      answer: "Yes, there is Wi-Fi and a limited number of ethernet outlets (priority given to teams competing in the 48-hour challenge)."
+    },
+    {
+      id: "item-17",
+      question: "Are there prizes?",
+      answer: "Yes, prizes will be awarded to winning teams. Details will be announced closer to the event."
+    },
+    {
+      id: "item-18",
+      question: "Will there be training or workshops before the hackathon?",
+      answer: "Yes! We offer a series of online and in-person workshops starting 3-4 months before the event, covering Ethereum development, project building, and inspiration."
+    },
+    {
+      id: "item-19",
+      question: "Can I bring a guest or advertise at the event?",
+      answer: "Guests: No, all attendees must apply individually.\n\nAdvertising: Please contact us at info@ethaccra.xyz before distributing any flyers or promotional materials."
+    },
+    {
+      id: "item-20",
+      question: "Can I recruit or do recruiting activities at ETHAccra?",
+      answer: "Direct recruitment is not allowed to maintain a positive environment. However, if an attendee approaches you first and there is mutual interest, conversations are welcome."
+    },
+    {
+      id: "item-21",
+      question: "What if I am selected but cannot attend?",
+      answer: "Please inform us as soon as possible. We cannot transfer your spot to someone else, but we can offer it to another candidate."
+    },
+    {
+      id: "item-22",
+      question: "Will I receive a participation certificate?",
+      answer: "Yes, certificates are available on demand after the event for those who actively participate."
+    },
+    {
+      id: "item-23",
+      question: "How do I contact mentors or the ETHAccra team?",
+      answer: "Mentors are available during the event for guidance.\n\nFor questions, email info@ethaccra.xyz.\n\nJoin our community chats on:\n• Telegram: https://t.me/c/1785270528/1\n• WhatsApp: https://chat.whatsapp.com/ILyl3Jlkwjm7HhyOXJNCMm"
+    },
+    {
+      id: "item-24",
+      question: "I want to sponsor or exhibit at ETHAccra. What do I do?",
+      answer: "Contact us at info@ethaccra.xyz for the sponsorship prospectus and application instructions."
+    },
+    {
+      id: "item-25",
+      question: "How is intellectual property (IP) handled?",
+      answer: "Participants retain full ownership of their projects. ETHAccra promotes open innovation, but it's entirely up to you how you manage your IP after the event."
+    },
+    {
+      id: "item-26",
+      question: "What should I bring to the event?",
+      answer: "Bring your laptop, charger, and any other necessary items to work comfortably, such as a mouse, headphones, or an extension cord. Wi-Fi and power will be provided at the venue."
+    },
+    {
+      id: "item-27",
+      question: "Is there a code of conduct?",
+      answer: "Yes. ETHAccra enforces a strict code of conduct to ensure a welcoming and respectful environment for everyone. Harassment, discrimination, or disruptive behavior of any kind will not be tolerated."
+    },
+    {
+      id: "item-28",
+      question: "What happens if my project is incomplete at the end of the hackathon?",
+      answer: "That's okay! You don't need a fully finished product. As long as you can demo your progress and explain your idea, you're good. Judges value creativity, effort, and potential just as much as technical polish."
+    },
+    {
+      id: "item-29",
+      question: "How will the judging process work?",
+      answer: "A panel of industry experts will evaluate projects based on innovation, technical difficulty, usability, impact, and presentation. Full judging criteria will be shared before demo day."
+    },
+    {
+      id: "item-30",
+      question: "Will there be swag or giveaways?",
+      answer: "Absolutely! Thanks to our amazing sponsors, expect cool swag like T-shirts, stickers, and other fun goodies throughout the event."
+    },
+    {
+      id: "item-31",
+      question: "I have a question not listed here. Who can I ask?",
+      answer: "Reach out to the ETHAccra team via email or join our Telegram and WhatsApp groups for direct support."
     }
   ];
 
@@ -98,7 +198,7 @@ const FaqSection: React.FC = () => {
             </div>
             {openItem === item.id && (
               <div className="px-4 pb-6">
-                <p className="text-black">
+                <p className="text-black whitespace-pre-line">
                   {item.answer.split("\n\n").map((paragraph, i) => (
                     <React.Fragment key={i}>
                       {paragraph}
@@ -111,13 +211,13 @@ const FaqSection: React.FC = () => {
                     </React.Fragment>
                   ))}
                 </p>
-                {item.id === "item-11" && (
+                {item.id === "item-31" && (
                   <p className="mt-2">
-                    You can reach out to the ETHAccra&apos;s team on
+                    You can reach out to the ETHAccra team on
                     {" "}
-                    <a className="text-orange-500 underline" href="https://t.me/+7ClMFsYpii05NGQ0" target="_blank" rel="noopener noreferrer">Telegram</a>,
+                    <a className="text-orange-500 underline" href="https://t.me/c/1785270528/1" target="_blank" rel="noopener noreferrer">Telegram</a>,
                     {" "}
-                    <a className="text-orange-500 underline" href="https://x.com/ETHAccra" target="_blank" rel="noopener noreferrer">X</a>
+                    <a className="text-orange-500 underline" href="https://chat.whatsapp.com/ILyl3Jlkwjm7HhyOXJNCMm" target="_blank" rel="noopener noreferrer">WhatsApp</a>
                     {" "}
                     or
                     {" "}
