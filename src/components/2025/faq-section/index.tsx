@@ -105,7 +105,7 @@ const FaqSection: React.FC = () => {
         {
           id: "general-4",
           question: "Is there a participation fee?",
-          answer: "No. ETHAccra is free for accepted participants.",
+          answer: "Participation in ETHAccra hackathon is completely free for accepted hackers. Please note, however, that Builder’s Day is a separate ticketed event.",
         },
       ],
     },
