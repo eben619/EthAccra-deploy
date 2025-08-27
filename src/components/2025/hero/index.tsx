@@ -68,7 +68,7 @@ const Hero = () => {
               </p>
 
               <p className={clsx(styles.dateText)}>
-                3RD SEPTEMBER, 2025 <span className="text-[#fc74c2]">--</span> <span className={clsx(styles.dateEvents)}>Builder's Day</span>
+                3RD SEPTEMBER, 2025 <span className="text-[#fc74c2]">--</span> <span className={clsx(styles.dateEvents)}>Builder&#39;s Day</span>
               </p>
               {/* Buttons Container - Side by Side */}
               <div className={styles.buttonsContainer}>
