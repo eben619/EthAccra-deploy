@@ -119,6 +119,16 @@ export const speakers: Speaker[] = [
     socials: {
       linkedin: "",
       x: "https://x.com/brantlymillegan?s=11",
+    }
+  },
+    {
+    imageUrl: "/assets/pngs/hackathon/2023_speakers/Temi.png",
+    name: "Temi",
+    affiliation: "Filecoin",
+    affiliationTwitterUrl: "https://x.com/Filecoin",
+    socials: {
+      linkedin: "",
+      x: "https://x.com/temi0x?s=21",
     },
   },
   /*{
