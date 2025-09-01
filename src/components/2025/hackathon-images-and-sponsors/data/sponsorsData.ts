@@ -141,6 +141,11 @@ export const supporters = [
     imageUrl: "/assets/pngs/2025/efp-logo.png",
     name: "",
     url: "https://x.com/efp",
+  },
+   {
+    imageUrl: "/assets/svgs/media-and-community/new/filecoin.svg",
+    name: "",
+    url: "https://twitter.com/buidlguidl",
   }
   /*{
     imageUrl: "/assets/svgs/hackathon/sponsors/lisk.svg",
