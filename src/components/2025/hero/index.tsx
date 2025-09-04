@@ -75,6 +75,10 @@ const Hero = () => {
                 <a
                   href="https://lu.ma/5svbuw6r"
                   target="_blank"
+                  rel="noopener noreferrer"
+                  aria-disabled="true"
+                  tabIndex={-1}
+                  style={{ pointerEvents: "none", opacity: 0.5 }}
                   className={clsx(styles.heroButton)}
                 >
                   APPLY TO ATTEND
@@ -82,6 +86,10 @@ const Hero = () => {
                 <a
                   href="https://forms.gle/36o85R9wKZNrJ3pg9"
                   target="_blank"
+                  rel="noopener noreferrer"
+                  aria-disabled="true"
+                  tabIndex={-1}
+                  style={{ pointerEvents: "none", opacity: 0.5 }}
                   className={clsx(styles.heroButton1)}
                 >
                   APPLY TO SPEAK
@@ -101,6 +109,7 @@ const Hero = () => {
                 ISSER Conference Hall, University of Ghana.
               </p>   
               {/* Countdown Timer with MORE text */}
+              {/* 
               <div className={styles.countdownWrapper}>
                 <div className={styles.countdownContainer}>
                   <div className={styles.countdownItem}>
@@ -112,7 +121,8 @@ const Hero = () => {
                     <span className={styles.countdownLabel}>Hours</span>
                   </div>
                 </div>
-              </div>   
+              </div>
+              */}
             </motion.div>
           </div>
         </div>
