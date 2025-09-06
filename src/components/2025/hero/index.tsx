@@ -92,7 +92,7 @@ const Hero = () => {
                   style={{ pointerEvents: "none", opacity: 0.5 }}
                   className={clsx(styles.heroButton1)}
                 >
-                  APPLY TO SPEAKS
+                  APPLY TO SPEAK
                 </a>
               </div><br />
               <p className={clsx(styles.dateText)}>
