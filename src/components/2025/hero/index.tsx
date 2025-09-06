@@ -92,7 +92,7 @@ const Hero = () => {
                   style={{ pointerEvents: "none", opacity: 0.5 }}
                   className={clsx(styles.heroButton1)}
                 >
-                  APPLY TO SPEAK
+                  APPLY TO SPEAKS
                 </a>
               </div><br />
               <p className={clsx(styles.dateText)}>
@@ -101,6 +101,10 @@ const Hero = () => {
               <a
                   href="https://taikai.network/ethaccra/hackathons/Hackathon2025"
                   target="_blank"
+                  rel="noopener noreferrer"
+                  aria-disabled="true"
+                  tabIndex={-1}
+                  style={{ pointerEvents: "none", opacity: 0.5 }}
                   className={clsx(styles.heroButton)}
                 >
                   APPLY TO HACK

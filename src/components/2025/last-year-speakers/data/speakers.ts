@@ -129,8 +129,19 @@ export const speakers: Speaker[] = [
     socials: {
       linkedin: "",
       x: "https://x.com/temi0x?s=21",
+      }
     },
+    {
+    imageUrl: "/assets/pngs/hackathon/2023_speakers/chidubem.jpg",
+    name: "Chidubem",
+    affiliation: "Lisk",
+    affiliationTwitterUrl: "https://x.com/LiskHQ",
+    socials: {
+      linkedin: "",
+      x: "https://x.com/chiidubem",
+    }
   },
+
   /*{
     imageUrl: "/assets/jpgs/hackathon/2024_speakers/e-etim.jpg",
     name: "Earnest Etim",
@@ -202,4 +213,5 @@ export const speakers: Speaker[] = [
   //         x: 'https://twitter.com/gichiba'
   //     }
   // },
+
 ] as const;
