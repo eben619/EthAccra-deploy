@@ -63,65 +63,101 @@
 
 export const hackathonImages = [
   {
-    imageUrl: "/assets/pngs/hackathon-2024/photo_1_2024-10-26_03-29-46.jpg",
+    imageUrl: "/assets/pngs/hackathon-2025/1.jpg",
     name: "",
     url: "",
   },
   {
-    imageUrl: "/assets/pngs/hackathon-2024/photo_1_2024-10-26_03-31-34.jpg",
+    imageUrl: "/assets/pngs/hackathon-2025/2.jpg",
     name: "",
     url: "",
   },
   {
-    imageUrl: "/assets/pngs/hackathon-2024/photo_2_2024-10-26_03-29-46.jpg",
+    imageUrl: "/assets/pngs/hackathon-2025/3.jpg",
     name: "",
     url: "",
   },
   {
-    imageUrl: "/assets/pngs/hackathon-2024/photo_2_2024-10-26_03-31-34.jpg",
+    imageUrl: "/assets/pngs/hackathon-2025/4.jpg",
     name: "",
     url: "",
   },
   {
-    imageUrl: "/assets/pngs/hackathon-2024/photo_3_2024-10-26_03-29-46.jpg",
+    imageUrl: "/assets/pngs/hackathon-2025/5.jpg",
     name: "",
     url: "",
   },
   {
-    imageUrl: "/assets/pngs/hackathon-2024/photo_3_2024-10-26_03-31-34.jpg",
+    imageUrl: "/assets/pngs/hackathon-2025/6.jpg",
     name: "",
     url: "",
   },
   {
-    imageUrl: "/assets/pngs/hackathon-2024/photo_4_2024-10-26_03-29-46.jpg",
+    imageUrl: "/assets/pngs/hackathon-2025/7.jpg",
     name: "",
     url: "",
   },
   {
-    imageUrl: "/assets/pngs/hackathon-2024/photo_4_2024-10-26_03-31-34.jpg",
+    imageUrl: "/assets/pngs/hackathon-2025/8.jpg",
     name: "",
     url: "",
   },
   {
-    imageUrl: "/assets/pngs/hackathon-2024/photo_5_2024-10-26_03-29-46.jpg",
+    imageUrl: "/assets/pngs/hackathon-2025/9.jpg",
     name: "",
     url: "",
   },
   {
-    imageUrl: "/assets/pngs/hackathon-2024/photo_5_2024-10-26_03-31-34.jpg",
+    imageUrl: "/assets/pngs/hackathon-2025/10.jpg",
     name: "",
     url: "",
   },
   {
-    imageUrl: "/assets/pngs/hackathon-2024/photo_6_2024-10-26_03-31-34.jpg",
+    imageUrl: "/assets/pngs/hackathon-2025/11.jpg",
     name: "",
     url: "",
   },
   {
-    imageUrl: "/assets/pngs/hackathon-2024/photo_7_2024-10-26_03-29-46.jpg",
+    imageUrl: "/assets/pngs/hackathon-2025/12.jpg",
     name: "",
     url: "",
   },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/13.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/14.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/15.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/16.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/17.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/18.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/19.jpg",
+    name: "",
+    url: "",
+  },
+  
 ] as const;
 
 
@@ -130,202 +166,165 @@ export const hackathonImages = [
 export const slideshowImages = {
   slide1: [
     {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_8_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      // imageUrl: "/assets/pngs/hackathon-2024/photo_1_2024-10-26_03-31-34.jpg",
-      // imageUrl: "/assets/pngs/hackathon-2024/photo_11_2024-10-26_03-29-46.jpg",
-      imageUrl: "/assets/pngs/hackathon-2024/ethaccra-swags.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_2_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_2_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_3_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_3_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_4_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_4_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_5_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_5_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      // imageUrl: "/assets/pngs/hackathon-2024/photo_6_2024-10-26_03-29-46.jpg",
-      // imageUrl: "/assets/pngs/hackathon-2024/trimmed-image/image-36.jpg",
-      imageUrl: "/assets/pngs/hackathon-2024/result_photo_6_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_6_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
+    imageUrl: "/assets/pngs/hackathon-2025/33.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/34.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/35.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/36.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/37.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/38.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/39.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/40.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/41.jpg",
+    name: "",
+    url: "",
+  },
   ],
 
   slide2: [
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_7_2024-10-26_03-29-46.jpg",
-      // imageUrl: "/assets/pngs/hackathon-2024/trimmed-image/image-42.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_7_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_1_2024-10-26_03-29-46.jpg",
-      // imageUrl: "/assets/pngs/hackathon-2024/photo_8_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      // imageUrl: "/assets/pngs/hackathon-2024/photo_8_2024-10-26_03-31-34.jpg",
-      // imageUrl: "/assets/pngs/hackathon-2024/trimmed-image/image-42.jpg",
-      imageUrl: "/assets/pngs/hackathon-2024/photo_19_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_9_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_9_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      // imageUrl: "/assets/pngs/hackathon-2024/photo_10_2024-10-26_03-29-46.jpg",
-      imageUrl: "/assets/pngs/hackathon-2024/result_photo_10_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_10_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      // imageUrl: "/assets/pngs/hackathon-2024/photo_19_2024-10-26_03-29-46.jpg",
-      imageUrl: "/assets/pngs/hackathon-2024/photo_1_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_11_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_12_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      // imageUrl: "/assets/pngs/hackathon-2024/photo_12_2024-10-26_03-31-34.jpg",
-      imageUrl: "/assets/pngs/hackathon-2024/result_photo_12_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
+     {
+    imageUrl: "/assets/pngs/hackathon-2025/20.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/21.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/22.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/23.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/24.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/25.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/26.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/27.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/28.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/29.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/30.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/31.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/32.jpg",
+    name: "",
+    url: "",
+  },
   ],
 
   slide3: [
     {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_13_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_13_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_14_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_14_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_15_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_15_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_16_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_16_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_17_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      // imageUrl: "/assets/pngs/hackathon-2024/photo_17_2024-10-26_03-31-34.jpg",
-      imageUrl: "/assets/pngs/hackathon-2024/photo_19_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_18_2024-10-26_03-29-46.jpg",
-      name: "",
-      url: "",
-    },
-    {
-      imageUrl: "/assets/pngs/hackathon-2024/photo_18_2024-10-26_03-31-34.jpg",
-      name: "",
-      url: "",
-    },
+    imageUrl: "/assets/pngs/hackathon-2025/42.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/43.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/44.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/45.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/46.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/47.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/48.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/49.jpg",
+    name: "",
+    url: "",
+  },
+  {
+    imageUrl: "/assets/pngs/hackathon-2025/50.jpg",
+    name: "",
+    url: "",
+  },
   ],
 } as const;
