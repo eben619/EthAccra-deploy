@@ -24,6 +24,10 @@ const HackathonSponsors = () => {
             className={clsx(styles.primaryLink, "text-white")}
             href="https://form.typeform.com/to/xKBpKRiz"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-disabled="true"
+            tabIndex={-1}
+            style={{ pointerEvents: "none", opacity: 0.5 }}
           >
             BECOME A SPONSOR
           </a>
