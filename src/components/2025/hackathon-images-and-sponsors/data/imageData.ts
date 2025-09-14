@@ -436,5 +436,45 @@ export const slideshowImages = {
       name: "",
       url: "",
     },
+     {
+      imageUrl: "/assets/pngs/hackathon-2025/54.JPG",
+      name: "",
+      url: "",
+    },
+     {
+      imageUrl: "/assets/pngs/hackathon-2025/55.JPG",
+      name: "",
+      url: "",
+    },
+     {
+      imageUrl: "/assets/pngs/hackathon-2025/56.JPG",
+      name: "",
+      url: "",
+    },
+     {
+      imageUrl: "/assets/pngs/hackathon-2025/57.JPG",
+      name: "",
+      url: "",
+    },
+     {
+      imageUrl: "/assets/pngs/hackathon-2025/58.JPG",
+      name: "",
+      url: "",
+    },
+     {
+      imageUrl: "/assets/pngs/hackathon-2025/59.JPG",
+      name: "",
+      url: "",
+    },
+     {
+      imageUrl: "/assets/pngs/hackathon-2025/60.JPG",
+      name: "",
+      url: "",
+    },
+     {
+      imageUrl: "/assets/pngs/hackathon-2025/61.JPG",
+      name: "",
+      url: "",
+    },
   ],
 } as const;
